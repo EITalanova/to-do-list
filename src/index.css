@@ -14,13 +14,22 @@ code {
     monospace;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 li {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   align-items: center;
   gap: 0.5rem;
 }
